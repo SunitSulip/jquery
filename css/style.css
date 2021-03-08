@@ -1,0 +1,23 @@
+.star::after {
+    content: "*";
+    color: red;
+
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.error {
+    color: red;
+}
+.card {
+    width: 700px;
+}
+.container {
+    width: 750px;
+}
+#submitButton{
+    text-align: center;
+}
+#submit{
+    width: 200px;;
+}
