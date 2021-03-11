@@ -22,11 +22,12 @@ function check(add){
    })
 }
   
-  $("#submit").click(function(){
+  $("#submit").click(function(){  // it should be inside the ready() as all bjects are needed to be loaded first
+ 
    
     var count=0;
     //first name validation
-    if($("#fname").val()==""){
+    if($("#fname").val()==""){			// for validation of emptyness use the length and trim feature 
       $("#fnameError").attr("hidden",false);
       count++;
     }
